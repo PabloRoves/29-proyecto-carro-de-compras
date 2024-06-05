@@ -17,8 +17,8 @@ const styles = {
 class Producto extends Component {
   render() {
     const {producto, agregarAlCarro}= this.props;
-    console.log(agregarAlCarro);
-    console.log(producto);
+    //console.log(agregarAlCarro);
+    //console.log(producto);
 
     return (
       <div style={styles.producto}>

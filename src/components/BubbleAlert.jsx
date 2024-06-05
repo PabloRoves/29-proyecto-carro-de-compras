@@ -17,10 +17,9 @@ class BubbleAlert extends Component{
         if(!n){return ''}
         return n > 9 ? '9+' : n;
     }
-
+    
     render(){
         const value = this.props.value
-        console.log(value);
         return(
             <span style={styles.bubbleAlert}>
                 {this.getNumber(value)}
