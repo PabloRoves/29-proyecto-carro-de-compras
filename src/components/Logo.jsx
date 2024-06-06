@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import logo from '/vite.svg'
 
 const styles = {
     logo:{
@@ -10,7 +11,7 @@ class Logo extends Component{
     render(){
         return(
             <div style={styles.logo}>
-                Shop
+               <img src={logo} className="App-logo" alt="logo" />
             </div>
         )
     }

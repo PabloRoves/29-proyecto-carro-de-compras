@@ -10,7 +10,7 @@ class Title extends Component{
     render(){
         return(
            <h1 style={styles.titulo}>
-            Titulo
+            Tienda
            </h1>
         )
     }

@@ -20,7 +20,7 @@ class Navbar extends Component{
         return(
             <nav style={styles.navbar}>
                 <Logo />
-                <Carro carro={carro}/>
+                <Carro carro={carro} muestro={false}/>
             </nav>
         )
     }

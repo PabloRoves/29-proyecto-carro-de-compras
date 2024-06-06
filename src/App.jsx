@@ -11,9 +11,7 @@ class App extends Component {
       { name: "Arbejas", price: 2000, img:'/productos/arbejas.jpeg' },
       { name: "Lechuga", price: 500, img:'/productos/lechuga.jpeg' },
     ],
-    carro: [
-      //{ name: "Tomate", price: 1500, img:'/productos/tomates.jpeg', cantidad:1 },
-    ],
+    carro: [],
   }
 
   
@@ -83,7 +81,7 @@ class App extends Component {
         return nuevoProducto
       }
       else{
-        console.log("Agrego al array producto existente")
+        //console.log("Agrego al array producto existente")
         return x;
       }
     })
