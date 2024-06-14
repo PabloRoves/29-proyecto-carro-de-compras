@@ -2,7 +2,7 @@ import { Component } from 'react'
 import Productos from './components/Productos.jsx'
 import Layout from './components/Layout.jsx'
 import Title from './components/Title.jsx'
-import Navbar from './components/Navbar.jsx'
+  import Navbar from './components/Navbar.jsx'
 
 class App extends Component {
   state = {
@@ -98,7 +98,7 @@ class App extends Component {
       <div>
         <Navbar carro={this.state.carro} />
         <Layout>
-          <Title />
+        <Title />
           <Productos 
             agregarAlCarro={this.agregarAlCarro}
             productos={this.state.productos}
